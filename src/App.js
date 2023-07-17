@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import PreLoader from './component/PreLoader';
 
@@ -7,6 +6,9 @@ function App() {
     <>
     {/*PreLoader component*/}
     <PreLoader />
+
+    <h1>Hello!</h1>
+    <h3>Welcome to my portfolio!</h3>
 
         
     </>
