@@ -1,6 +1,7 @@
-.preloader{
+/* preloader.css */
+.preloader {
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background: #000;
     color: #FFF;
     position: fixed;
@@ -12,16 +13,26 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
-}
-
-.preloader .texts-container{
+  }
+  
+  .preloader .texts-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 45px;
-    width: 540px;
-    font-size: 35px;
+    height: 4vw; /* Adjust the height for responsiveness */
+    width: 30vw; /* Adjust the width for responsiveness */
+    font-size: 2vw; /* Adjust the font size for responsiveness */
     font-weight: 800;
     overflow: hidden;
     color: #FFF;
-}
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .preloader .texts-container {
+      height: 7vw; /* Adjust the height for smaller screens */
+      width: 80vw; /* Adjust the width for smaller screens */
+      font-size: 5vw; /* Adjust the font size for smaller screens */
+    }
+  }
+  
