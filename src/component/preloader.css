@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 4vw; /* Adjust the height for responsiveness */
+    height: 3.5vw; /* Adjust the height for responsiveness */
     width: 30vw; /* Adjust the width for responsiveness */
     font-size: 2vw; /* Adjust the font size for responsiveness */
     font-weight: 800;
@@ -30,7 +30,7 @@
   /* Media query for smaller screens */
   @media (max-width: 768px) {
     .preloader .texts-container {
-      height: 7vw; /* Adjust the height for smaller screens */
+      height: 6vw; /* Adjust the height for smaller screens */
       width: 80vw; /* Adjust the width for smaller screens */
       font-size: 5vw; /* Adjust the font size for smaller screens */
     }

@@ -14,6 +14,12 @@ body {
   color: white;
 }
 
+.rotating-square-container {
+  position: absolute;
+  top: 10vh; /* Adjust the top position to move the square down or up */
+  right: 10vh; /* Adjust the right position to move the square left or right */
+}
+
 .headline-text {
   font-family: 'Fira Code', monospace; /* Use the name of the font you selected */
   color: white; /* Set the text color to plain white */
