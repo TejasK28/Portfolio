@@ -1,19 +1,26 @@
 import './App.css';
 import PreLoader from './component/PreLoader';
+import HomePage from "./component/HomePage";
+import React, { useState, useEffect } from 'react';
 
 function App() {
+
+
   return (
+
     <>
+
+    
     {/*PreLoader component*/}
+        {/*Does the preloader animation*/}
     <PreLoader />
 
-    <h1>Hello!</h1>
-    <h3>Welcome to my portfolio!</h3>
-    <h3>This is a test</h3>
+    {/*HomePage component*/}
+      {/*Displays website*/}
+      <HomePage />
 
-        
+
     </>
-    
   );
 }
 

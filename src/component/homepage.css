@@ -1,0 +1,32 @@
+/* homepage.css */
+body {
+  background-color: #161616; /* Set the background of the whole webpage to black */
+  margin: 0; /* Remove any default margins */
+  padding: 0; /* Remove any default paddings */
+}
+
+.homepage-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.headline-text {
+  font-family: 'Fira Code', monospace; /* Use the name of the font you selected */
+  color: white; /* Set the text color to plain white */
+  font-size: 0.6rem; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+
+.main-text {
+  font-family: 'Fira Code', monospace; /* Use the name of the font you selected */
+  color: white; /* Set the text color to plain white */
+  font-size: 1rem; /* Adjust the font size as needed */
+  font-weight: bold;
+  margin-top: -25px; /* Move the main text up to align with the headline text */
+  margin-bottom: 400px; /* Move the main text up to align with the headline text */
+}

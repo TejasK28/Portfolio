@@ -7,6 +7,7 @@ const PreLoader = () => {
     useEffect(() => {
         preLoaderAnim()
     }, [])
+
     return (
         <div className="preloader">
             <div className="texts-container">
