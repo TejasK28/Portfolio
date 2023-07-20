@@ -12,19 +12,15 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
-}
-
-.rotating-square-container {
-  position: absolute;
-  top: 10vh; /* Adjust the top position to move the square down or up */
-  right: 10vh; /* Adjust the right position to move the square left or right */
+  box-sizing: border-box;
 }
 
 .headline-text {
-  font-family: 'Fira Code', monospace; /* Use the name of the font you selected */
-  color: white; /* Set the text color to plain white */
+  font-family: 'Alegreya Sans SC', sans-serif; /* Use the name of the font you selected */
+  color: #B3B3B3; /* Set the text color to plain white */
   font-size: 0.6rem; /* Adjust the font size as needed */
   font-weight: bold;
+  word-spacing: 0.2rem; 
 }
 
 .main-text {
@@ -45,4 +41,12 @@ body {
   .main-text {
     font-size: 0.8rem; /* Adjust the font size for smaller screens */
   }
+}
+
+.extension {
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  max-height: calc(100vh - 400px); /* The remaining viewport height after the welcome message */
 }
