@@ -287,9 +287,9 @@ export const boxHover = (e) => {
         opacity: 1,
       })
       .from(e.target.querySelectorAll(".box-anim"), {
-        duration: 0.3,
+        duration: 0.2,
         opacity: 0,
-        y: 30,
+        y: '50vh',
         stagger: 0.1,
         ease: "Power3.easeOut",
       });
