@@ -20,7 +20,8 @@ body {
   color: #B3B3B3; /* Set the text color to plain white */
   font-size: 0.6rem; /* Adjust the font size as needed */
   font-weight: bold;
-  word-spacing: 0.2rem; 
+  word-spacing: 0.3rem; 
+  margin-bottom: -1rem; /* Add some spacing between the texts */
 }
 
 .main-text {
@@ -34,18 +35,18 @@ body {
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   .headline-text {
-    font-size: 0.5rem; /* Adjust the font size for smaller screens */
-    margin-bottom: -0.5rem; /* Add some spacing between the texts */
+    font-size: 0.4rem; /* Adjust the font size for smaller screens */
+    margin-bottom: -1rem; /* Add some spacing between the texts */
   }
 
   .main-text {
-    font-size: 0.8rem; /* Adjust the font size for smaller screens */
+    font-size: 0.5rem; /* Adjust the font size for smaller screens */
   }
 }
 
 .extension {
   background-color: #ffffff;
-  padding: 20px;
+  padding: 20vh;
   box-sizing: border-box;
   overflow-y: auto;
   max-height: calc(100vh - 400px); /* The remaining viewport height after the welcome message */
