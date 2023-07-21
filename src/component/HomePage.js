@@ -3,7 +3,6 @@ import './homepage.css'
 import RotatingSquare from './Square.js';
 import InfoBlock from './InfoBlock';
 import { useRef, useEffect, useState } from 'react';
-
 function HomePage()
 {
 
@@ -15,6 +14,7 @@ function HomePage()
         <div className="rotating-square-container">
                 <RotatingSquare />
         </div>
+
         
         <div className = "homepage-container">
             

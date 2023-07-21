@@ -16,7 +16,7 @@ const RotatingSquare = () => {
       }}
       transition={{
         repeat: Infinity,
-        duration: 20,
+        duration: 28,
         ease: 'linear',
       }}
     />
